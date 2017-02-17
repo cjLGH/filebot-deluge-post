@@ -1,4 +1,4 @@
-### FileBot CLI
+## FileBot CLI
 http://www.filebot.net/cli.html
 
 FileBot Commands
@@ -9,7 +9,13 @@ FileBot Commands
 --log-file (Logging)
 --def (Defenitions)
    excludeList="PATH" (Excludes list, keep from flooding)
-   plex=HOST:TOKEN (Current setup [10.0.0.20:u4ZyYLkLn4ERLsySRhSr])
+   plex=HOST:TOKEN (Current setup [IP:TOKEN])
    seriesFormat (Formatting TV Series)
    movieFormat (Formatting Movies)
+```
+
+## Definitions
+### Music
+```
+--def music=y musicFormat="/media/sdb/Music/{n}/{album+'/'}{pi.pad(2)} {t}"
 ```
