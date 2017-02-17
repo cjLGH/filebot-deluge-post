@@ -14,7 +14,7 @@ FileBot Commands
    movieFormat (Formatting Movies)
 ```
 
-## Definitions
+## Naming Schemes ([FileBot Forums](https://www.filebot.net/forums/viewtopic.php?f=5&t=2#p51))
 ### Music
 ```
 --def music=y musicFormat="/media/sdb/Music/{n}/{album+'/'}{pi.pad(2)} {t}"
